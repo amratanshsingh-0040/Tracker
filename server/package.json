@@ -1,0 +1,17 @@
+{
+  "name": "fintech-tracker-server",
+  "version": "1.0.0",
+  "description": "Fintech Expense and Cost Intelligence Backend",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1",
+    "better-sqlite3": "^11.8.1"
+  }
+}

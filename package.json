@@ -1,0 +1,18 @@
+{
+  "name": "apexpay-fintech-tracker",
+  "version": "1.0.0",
+  "description": "ApexPay Fintech Expense and Cost Intelligence Tracker",
+  "scripts": {
+    "server": "npm --prefix server start",
+    "client": "npm --prefix client dev",
+    "dev": "npx concurrently \"npm run server\" \"npm run client\"",
+    "start": "node server/src/index.js",
+    "build": "npm --prefix client install && npm --prefix client run build",
+    "render-build": "npm --prefix server install && npm --prefix client install && npm --prefix client run build",
+    "setup": "npm install && npm --prefix server install && npm --prefix client install",
+    "reset-admin": "node server/src/reset-admin.js"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

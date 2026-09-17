@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 850" width="100%" height="100%">
+    <defs>
+      <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#0f172a" />
+        <stop offset="100%" stop-color="#1e293b" />
+      </linearGradient>
+    </defs>
+    <style>
+      .text-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    </style>
+    <!-- Background Card -->
+    <rect width="700" height="850" fill="#f8fafc" rx="16" />
+    <rect x="25" y="25" width="650" height="800" fill="#ffffff" rx="12" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.05))" stroke="#e2e8f0" stroke-width="1.5" />
+
+    <!-- Top Header Banner -->
+    <rect x="25" y="25" width="650" height="110" fill="url(#headerGrad)" rx="12" />
+    <text x="60" y="75" fill="#ffffff" font-size="24" font-weight="bold" font-family="-apple-system, BlinkMacSystemFont, sans-serif">
+      A-LIGN ASSURANCE AUDITORS
+    </text>
+    <text x="60" y="105" fill="#94a3b8" font-size="13" font-family="-apple-system, BlinkMacSystemFont, sans-serif">
+      FINANCIAL TECHNOLOGY &amp; ENTERPRISE SERVICES
+    </text>
+    <rect x="530" y="55" width="110" height="32" rx="6" fill="#10b981" fill-opacity="0.2" stroke="#10b981" stroke-width="1.5"/>
+    <text x="585" y="76" fill="#10b981" font-size="13" font-weight="700" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif">PAID / AUDITED</text>
+
+    <!-- Meta Info Box -->
+    <g transform="translate(60, 160)" font-family="-apple-system, BlinkMacSystemFont, sans-serif">
+      <text x="0" y="0" fill="#64748b" font-size="12" font-weight="600">BILLED TO:</text>
+      <text x="0" y="22" fill="#0f172a" font-size="15" font-weight="bold">Apex Pay Technologies Inc.</text>
+      <text x="0" y="42" fill="#475569" font-size="13">Attn: Finance &amp; Treasury Dept</text>
+      <text x="0" y="62" fill="#475569" font-size="13">500 Howard St, Suite 400, San Francisco, CA</text>
+
+      <text x="360" y="0" fill="#64748b" font-size="12" font-weight="600">INVOICE DETAILS:</text>
+      <text x="360" y="22" fill="#0f172a" font-size="14">Invoice No: <tspan font-weight="bold">ALIGN-AUDIT-2026-Q3</tspan></text>
+      <text x="360" y="42" fill="#0f172a" font-size="14">Date: <tspan font-weight="bold">2026-08-28</tspan></text>
+      <text x="360" y="62" fill="#0f172a" font-size="14">Status: <tspan fill="#10b981" font-weight="bold">Settled via Wire</tspan></text>
+    </g>
+
+    <!-- Divider -->
+    <line x1="60" y1="260" x2="640" y2="260" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="4 4" />
+
+    <!-- Table Header -->
+    <rect x="60" y="280" width="580" height="38" fill="#f1f5f9" rx="6"/>
+    <text x="75" y="304" fill="#475569" font-size="12" font-weight="bold" font-family="-apple-system, BlinkMacSystemFont, sans-serif">DESCRIPTION</text>
+    <text x="440" y="304" fill="#475569" font-size="12" font-weight="bold" font-family="-apple-system, BlinkMacSystemFont, sans-serif" text-anchor="middle">QTY</text>
+    <text x="620" y="304" fill="#475569" font-size="12" font-weight="bold" font-family="-apple-system, BlinkMacSystemFont, sans-serif" text-anchor="end">AMOUNT (USD)</text>
+
+    <!-- Table Items Embed via foreignObject -->
+    <foreignObject x="60" y="325" width="580" height="280">
+      <table xmlns="http://www.w3.org/1999/xhtml" style="width: 100%; border-collapse: collapse; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">
+        
+    <tr style="border-bottom: 1px solid #e2e8f0;">
+      <td style="padding: 10px 14px; font-size: 13px; color: #334155;">PCI-DSS v4.0 Level 1 Assessment & Attestation</td>
+      <td style="padding: 10px 14px; font-size: 13px; color: #64748b; text-align: center;">1</td>
+      <td style="padding: 10px 14px; font-size: 13px; color: #0f172a; font-weight: 600; text-align: right;">$11,000</td>
+    </tr>
+  
+    <tr style="border-bottom: 1px solid #e2e8f0;">
+      <td style="padding: 10px 14px; font-size: 13px; color: #334155;">SOC 2 Type II Surveillance Audit</td>
+      <td style="padding: 10px 14px; font-size: 13px; color: #64748b; text-align: center;">1</td>
+      <td style="padding: 10px 14px; font-size: 13px; color: #0f172a; font-weight: 600; text-align: right;">$7,500</td>
+    </tr>
+  
+      </table>
+    </foreignObject>
+
+    <!-- Total Breakdown -->
+    <g transform="translate(380, 620)" font-family="-apple-system, BlinkMacSystemFont, sans-serif">
+      <rect x="0" y="0" width="260" height="110" fill="#f8fafc" rx="8" stroke="#e2e8f0" />
+      <text x="20" y="32" fill="#64748b" font-size="13">Subtotal:</text>
+      <text x="240" y="32" fill="#0f172a" font-size="13" text-anchor="end" font-weight="600">$17,020.00</text>
+      
+      <text x="20" y="58" fill="#64748b" font-size="13">Sales Tax / VAT (8%):</text>
+      <text x="240" y="58" fill="#0f172a" font-size="13" text-anchor="end" font-weight="600">$1,480.00</text>
+
+      <line x1="20" y1="72" x2="240" y2="72" stroke="#cbd5e1" stroke-width="1" />
+
+      <text x="20" y="96" fill="#0f172a" font-size="15" font-weight="bold">Total Paid:</text>
+      <text x="240" y="96" fill="#2563eb" font-size="17" font-weight="bold" text-anchor="end">$18,500.00</text>
+    </g>
+
+    <!-- Footer Seal / Verification -->
+    <g transform="translate(60, 750)" font-family="-apple-system, BlinkMacSystemFont, sans-serif">
+      <circle cx="20" cy="20" r="18" fill="#ecfdf5" stroke="#10b981" stroke-width="1.5"/>
+      <path d="M12 20 L18 26 L28 14" stroke="#10b981" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+      <text x="50" y="16" fill="#0f172a" font-size="12" font-weight="bold">Digital Receipt Verified &amp; Cryptographically Timestamped</text>
+      <text x="50" y="32" fill="#64748b" font-size="11">Compliance Ref: SOC2-TYPE-II-AUDIT-ALIGN-AUDIT-2026-Q3 | Stored for 7-Year Retention</text>
+    </g>
+  </svg>

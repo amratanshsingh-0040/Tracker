@@ -121,3 +121,26 @@ When the app opens in your browser, sign in with the initial admin account:
      ```
      *(Or simply double-click `start.bat` on Windows!)*
   3. Open **[http://localhost:3000](http://localhost:3000)**.
+
+---
+
+## 🔒 Emergency Password Recovery & Master Key
+
+If you ever forget your password and are locked out of the app:
+
+### Option A: On the Login Screen (Web UI)
+1. Click **"Forgot password?"** on the login screen.
+2. Enter your email (`admin@company.com`).
+3. Enter your **Master Recovery Key**:
+   ```
+   apex-recovery-key-2026
+   ```
+4. Enter your new password and click **Reset & Save Password**.
+
+### Option B: From the Terminal
+In your terminal inside the `Tracker` folder, run:
+```bash
+npm run reset-admin MyNewPassword123
+```
+This immediately updates the admin password in the database.
+

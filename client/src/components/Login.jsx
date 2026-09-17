@@ -222,9 +222,6 @@ export default function Login({ onLoginSuccess }) {
                     className="w-full pl-10 pr-4 py-2 bg-gray-50 border border-gray-200 rounded-xl text-sm text-gray-900 placeholder-gray-400 focus:outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-100 focus:bg-white transition"
                   />
                 </div>
-                <p className="text-[11px] text-gray-400 mt-1">
-                  Default Key: <code className="bg-gray-100 px-1 py-0.5 rounded font-mono text-gray-600">apex-recovery-key-2026</code>
-                </p>
               </div>
 
               {/* New Password */}
@@ -286,16 +283,6 @@ export default function Login({ onLoginSuccess }) {
                 <span>Back to Sign In</span>
               </button>
             </form>
-          )}
-
-          {/* First-time hint (only on login) */}
-          {mode === 'login' && (
-            <div className="mt-6 pt-5 border-t border-gray-100 flex items-center gap-2 text-[11px] text-gray-500">
-              <ShieldCheck className="w-4 h-4 text-emerald-500 shrink-0" />
-              <span>
-                Default Admin: <code className="bg-gray-100 text-indigo-700 px-1 py-0.5 rounded font-mono">admin@company.com</code> / <code className="bg-gray-100 text-indigo-700 px-1 py-0.5 rounded font-mono">admin123</code>
-              </span>
-            </div>
           )}
 
         </div>
